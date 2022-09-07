@@ -1,0 +1,127 @@
+
+h2 {color:red;
+    text-align: center;
+    font-size: 50px;
+     }
+
+
+input[type=text]{width: 100%;
+                   padding: 8px 8px;
+                   margin: 10px 0;
+                   }
+
+
+input[type=submit]{width: 100%;
+                    background-color: #8cc21f;
+                    color: White;
+                    padding: 12px 12px;
+                    border: none;
+                    border-radius: 6px;
+                     }
+
+
+body{background-color: #9ED2C6;
+       padding: 20px;
+       }
+
+.one{color:#1A4D2E;
+     font-family: "Optima", "Courier New";
+     text-align:center;
+     font-size:66px;
+       }
+
+
+.para{color:black;
+      text-align:center;
+      font-family: "Optima", "Courier New";
+      font-weight: bold;
+      font-size:20px;
+       }
+
+
+.new_para{color:yellow;
+          text-align:center;
+          font-size:30px;}
+
+
+.middle-container{text-align:center;
+                   margin:100px;
+                   }
+
+
+.apple{color:#102ad2;
+        font-size:30px;
+        }
+
+
+.bod{color:#EF5B0C;
+     text-align:center;
+     font-size:40px;
+     margin:30px;
+     }
+
+
+.bill_pic{position: absolute;
+         left:2%; top:5%;
+         margin:10px;
+         }
+
+
+.bill_pic_2{position:absolute;
+         right:2%; top:5%;
+         margin:10px;
+         }
+
+.bill_head{}
+
+
+.friend{position:absolute;
+       right:46%;
+       bottom:7%;
+       }
+
+.debit{position:absolute;
+       right:5%;}
+
+.bitcoin{position:absolute;
+         left:40%;
+         bottom:40%;}
+
+.cash{position:absolute;
+      left:5%}
+
+.form{position:absolute;
+      left:3%;
+      top:5%;}
+
+.btn {
+  background: #122f42;
+  background-image: -webkit-linear-gradient(top, #122f42, #2980b9);
+  background-image: -moz-linear-gradient(top, #122f42, #2980b9);
+  background-image: -ms-linear-gradient(top, #122f42, #2980b9);
+  background-image: -o-linear-gradient(top, #122f42, #2980b9);
+  background-image: linear-gradient(to bottom, #08eb11, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #0d0f0c;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position:absolute;
+  right:49%;
+  bottom:50%;
+}
+
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #E91E63, #3498db);
+  text-decoration: none;
+}
