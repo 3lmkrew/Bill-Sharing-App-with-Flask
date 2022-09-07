@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill page</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" href="../static/favicon.ico">
+
+
+</head>
+<body>
+<h2 class="bill_head">Bill Form</h2>
+<div class="divider_2">
+    <img class="form" src="../static/form.png">
+    <p class="new_para">Fill out the form and click the button to get the results</p>
+</div>
+
+
+<form action="/results" method="post">
+    {{bill_form.amount.label}} {{bill_form.amount}}
+    <br><br>
+    {{bill_form.period.label}} {{bill_form.period}}
+    <hr>
+    <p>First Roommate</p>
+    {{bill_form.roommate_one_name.label}} {{bill_form.roommate_one_name}}
+    <br><br>
+    {{bill_form.roommate_one_days.label}} {{bill_form.roommate_one_days}}
+    <hr>
+    <p>Second Roommate</p>
+    {{bill_form.roommate_two_name.label}} {{bill_form.roommate_two_name}}
+    <br><br>
+    {{bill_form.roommate_two_days.label}} {{bill_form.roommate_two_days}}
+    <br><br>
+    {{bill_form.button_calculate}}
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" href="../static/favicon.ico">
+</head>
+
+<body>
+<h1 class="one">Mason's Split my bill <br> Webb App</h1>
+<p  class="para"><br>This app allows you to calculate and split your bill,<br> depending on how many days each roommate spent at home.
+    <br>It will also generate a PDF file for you.</p>
+
+<div class="middle-container">
+
+ <p><a class="btn" href={{url_for('bill_form_page')}} > START </a></p>
+
+</div>
+
+<div class="bottom_container">
+
+    <img class="bill_pic" src="../static/bill.png">
+    <img class="bill_pic_2" src="../static/bill.png">
+    <img class="friend" src="../static/friend.png">
+</div>
+
+
+</body>
+</html>
